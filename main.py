@@ -19,7 +19,7 @@ face_detection = mp_face.FaceDetection(min_detection_confidence=0.5)
 pygame.init()
 WIDTH, HEIGHT = 640, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("バスケットボール リフティング ゲーム")
+pygame.display.set_caption("バスケットボールリフティングゲーム")
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 36)
 
