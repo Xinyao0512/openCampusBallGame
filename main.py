@@ -7,7 +7,7 @@ import random
 import mediapipe as mp
 
 # カメラの初期化
-cap = cv2.VideoCapture(1)
+cap = cv2.VideoCapture(0)
 
 # MediaPipeの初期化
 mp_hands = mp.solutions.hands
@@ -19,7 +19,7 @@ face_detection = mp_face.FaceDetection(min_detection_confidence=0.5)
 pygame.init()
 WIDTH, HEIGHT = 640, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("バスケットボールリフティングゲーム")
+pygame.display.set_caption("バスケットボール リフティング ゲーム")
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 36)
 
