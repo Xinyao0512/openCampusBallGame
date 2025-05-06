@@ -42,6 +42,7 @@
 
 ```bash
 pip install opencv-python mediapipe pygame
+```
 
 ---
 
