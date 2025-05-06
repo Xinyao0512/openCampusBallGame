@@ -42,3 +42,10 @@
 
 ```bash
 pip install opencv-python mediapipe pygame
+
+---
+
+## 📄 ライセンス
+
+MIT License に基づき、自由に利用・修正・再配布可能です。
+
