@@ -23,7 +23,7 @@ face_mesh = mp_face_mesh.FaceMesh(static_image_mode=False, max_num_faces=1, min_
 pygame.init()
 WIDTH, HEIGHT = 640, 480
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
-pygame.display.set_caption("リフティング ゲーム")
+pygame.display.set_caption("ボール ゲーム")
 clock = pygame.time.Clock()
 font = pygame.font.SysFont(None, 36)
 
